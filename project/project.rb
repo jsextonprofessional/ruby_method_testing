@@ -5,10 +5,6 @@ class Project
         @description = description
     end
     def elevator_pitch
-        puts "#{@name}, #{@description}"
+        p "#{@name}, #{@description}"
     end
 end
-project1 = Project.new("Project 1", "description 1")
-puts project1.name # => "Project 1"
-project1.elevator_pitch  # => "Project 1, Description 1"
-project1 = Project.new("Project 2", "description 2")
